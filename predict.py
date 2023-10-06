@@ -75,7 +75,7 @@ class Predictor(BasePredictor):
         ,
         use_beam_search: bool = Input(
             description="Whether to apply beam search to generate the output text",
-            default=false
+            default=False
         ),
         ) -> List[Path]:
         """Run a single prediction on the model"""
