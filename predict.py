@@ -38,6 +38,7 @@ TA = Union[T, ARRAY]
 
 WEIGHTS_PATHS = {
     "animals": "models/animals.pt",
+    "cars" : "models/vehicle.pt"
 }
 
 D = torch.device
@@ -67,7 +68,7 @@ class Predictor(BasePredictor):
             description="Select an image",
             default= None,
         ), 
-        model: Path = Input(
+        model: str = Input(
             description="models available",
             choices= WEIGHTS_PATHS.keys(),
             default="animals"

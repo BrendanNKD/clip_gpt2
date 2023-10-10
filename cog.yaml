@@ -18,12 +18,12 @@ build:
 
   # a list of packages in the format <package-name>==<version>
   python_packages:
-    - "transformers==4.11.3"
+    - "transformers==4.34.0"
     - "git+https://github.com/openai/CLIP.git"
-    - "torch==1.9.1"
-    - "numpy==1.19.5"
-    - "pillow==8.3.2"
-    - "scikit-image==0.16.2"
+    - "torch==2.1.0"
+    - "numpy==1.26.0"
+    - "pillow==10.0.1"
+    - "scikit-image==0.22.0"
 
   # commands run after the enviroment is setup
   run:
