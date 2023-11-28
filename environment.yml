@@ -10,6 +10,6 @@ dependencies:
       - transformers~=4.34.0
       - ftfy
       - regex
-      - numpy
       - tqdm
+      - numpy
       - git+https://github.com/openai/CLIP.git

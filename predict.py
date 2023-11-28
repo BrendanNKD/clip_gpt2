@@ -38,7 +38,11 @@ TA = Union[T, ARRAY]
 
 WEIGHTS_PATHS = {
     "animals": "models/animals.pt",
-    "cars" : "models/vehicle.pt"
+    "cars": "models/vehicle.pt",
+    "flowers": "models/flowers.pt",
+    "food": "models/food.pt",
+    "vege": "models/vege.pt",
+    "shapes": "models/shapes.pt",
 }
 
 D = torch.device
